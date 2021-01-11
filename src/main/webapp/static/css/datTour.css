@@ -1,0 +1,393 @@
+
+.pull-right {
+    float: right!important;
+}
+
+
+
+.booking-item-payment {
+  
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+    border-top: 3px solid #fb6b26;
+}
+
+.booking-item-payment .booking-item-payment-details {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+   
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.booking-item-payment .booking-item-payment-details>li {
+    overflow: hidden;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mb10>img {
+    width: 100%;
+}
+
+.mb10>img {
+    vertical-align: middle;
+}
+
+.mb10>img {
+    border: 0;
+}
+
+.booking-item-payment .booking-item-payment-details>li>h5 {
+    line-height: 1em;
+}
+
+.color-orange {
+    color: #fb6b26 !important;
+    font-weight: 700;
+}
+
+.navbar-nav>li>a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h5 {
+    font-size: 18.2px;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.text-hero {
+    margin-top: 0;
+}
+
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    position: relative;
+}
+
+
+
+
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.text-darken {
+    color: #626262;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.font16 {
+    font-size: 16px !important;
+}
+
+
+
+.w100 {
+    width: 100%;
+}
+
+.booking-item-rating {
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+.booking-item-rating .booking-item-rating-stars {
+    display: inline-block;
+    margin-bottom: -5px;
+    color: #fb6b26;
+}
+
+.side-header #primary-menu ul>li.sub-menu>a:after,
+[class*=" icon-line-"],
+[class*=" icon-line2-"],
+[class*=" icon-"],
+[class^=icon-line2-],
+[class^=icon-],
+[class^=icon-line-] {
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon', Arial, Helvetica, sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.icon-group {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mr0 {
+    margin-right: 0 !important;
+}
+
+.icon-group>li {
+    float: left;
+    margin-right: 5px;
+}
+
+.booking-item-rating .booking-item-rating-stars .fa {
+    margin-right: 0;
+}
+
+.booking-item-payment .booking-item-payment-details>li>h5 {
+    line-height: 1em;
+    font-size: 20px;
+    color: #333 !important;
+}
+
+table {
+    background-color: transparent;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+
+.table-booking tr td {
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.color-blue {
+    color: #1A3863 !important;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.table-booking tr td {
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.booking-item-payment .booking-item-payment-details>li:last-child {
+    margin-bottom: 0;
+}
+
+.booking-item-payment .booking-item-payment-total {
+    margin-bottom: 0;
+    padding: 7px 30px 0px 15px;
+    font-size: 16px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.booking-item-payment .booking-item-payment-total>span {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+.box-booking {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-top: 3px solid #fb6b26;
+    height: 550px
+}
+
+.mb15 {
+    margin-bottom: 15px !important;
+}
+
+h4 {
+    font-size: 23.66px;
+}
+.pttt {
+    border: 0 !important;
+    box-shadow: none;
+}
+
+.pttt .booking-item-payment-details {
+    padding: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.booking-item-payment .booking-item-payment-details>li:last-child {
+    margin-bottom: 0;
+}
+
+.booking-item-payment .booking-item-payment-details>li .booking-item-payment-price {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.booking-item-payment .booking-item-payment-details>li .booking-item-payment-price>li {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.pttt .booking-item-payment-details li>div {
+    width: 100%;
+}
+
+.checkbox-small.checkbox-inline,
+.radio-small.checkbox-inline,
+.checkbox-small.radio-inline,
+.radio-small.radio-inline {
+    margin: 0;
+}
+
+.checkbox-inline,
+.radio-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.checkbox-small label,
+.radio-small label {
+    font-size: 12px;
+}
+
+.checkbox-inline label,
+.radio-inline label {
+    cursor: pointer;
+}
+
+label {
+    font-weight: 400;
+    display: block;
+}
+
+label {
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.checkbox-small label .i-check,
+.radio-small label .i-check,
+.checkbox-small label .i-radio,
+.radio-small label .i-radio {
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    top: 3px;
+}
+/*button_booking*/
+ .btn.btn-block{
+    background-color: #fb6b26 ;
+    color: #fff ;
+}
+.btn.btn-block:hover{
+    background-color: #fff ;
+    color: #fb6b26 ;
+    border: #fb6b26 1px solid;
+}
+.btn.btn-back{
+    background-color: #1ba0e2 ;
+    color: #fff ;
+    width: 100%;
+}
+.btn.btn-back:hover{
+    background-color: #fff ;
+    color: #1ba0e2 ;
+    border: #1ba0e2 1px solid;
+}
+/*span_infor_tour*/
+.text-darken span {
+    color: #ff5722;
+    font-weight: 600;
+}
+.clearfix{
+    margin-top: 0px;
+}
+   
+
+
+

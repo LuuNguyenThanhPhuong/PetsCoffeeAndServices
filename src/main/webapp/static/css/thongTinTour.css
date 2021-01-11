@@ -1,0 +1,934 @@
+
+
+.tour-detail {
+    background: #ddd;
+    display: block;
+}
+
+.font28 {
+    font-size: 28px
+}
+.daiDien{
+    width: 100%;
+    height: auto;
+}
+.daiDien img{
+    height: 510px;
+}
+
+.lh1em {
+    line-height: 1em;
+}
+.booking-item-details{
+    margin-bottom: 50px;
+}
+.booking-item-details .booking-item-header {
+
+    border-top: 1px solid #f2f2f2;
+}
+
+.col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.color-orange {
+    color: #1c1c1c;
+    font-weight: 700;
+}
+.color-orange_gia {
+    color: #ff5722;
+    font-weight: 700;
+}
+.old-price {
+    color: #888;
+    font-size: 28px;
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.font38 {
+    font-size: 38px !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tour-information {
+    margin-top: 0px;
+}
+
+.color-green {
+    color: #15B041 !important;
+}
+
+.box-icon-mini {
+    width: 23px;
+    height: 23px;
+    line-height: 25px;
+}
+
+.booking-item-dates-change {
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.box-icon,
+[class^="box-icon-"],
+[class*=" box-icon-"] {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.mb5 .fa {
+    padding-top: 7px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.box-icon-gray {
+    background: #808080;
+}
+
+.box-icon-inline {
+    display: inline-block;
+}
+
+.booking-item-meta {
+    position: relative;
+}
+
+
+.nav-tabs>li>a {
+    padding: 10px 25px;
+}
+
+.mt15 {
+    margin-top: 10px
+}
+
+.stars .fa {
+    color: tomato;
+    top: 0;
+}
+
+.post-wrap .post-info .box-rating .stars i {
+    margin-right: 0;
+    padding-right: 0.1875rem;
+    font-size: 0.875rem;
+}
+
+.msg {
+    position: absolute;
+    top: 20px;
+}
+
+.box-rating {
+    margin-right: 5px
+}
+
+
+/* snippet - Rating */
+
+.box-rating {
+    opacity: 0.7;
+}
+
+.box-rating.actived {
+    opacity: 1;
+}
+
+.box-rating .stars {
+  
+    margin-right: 5px
+}
+.font24 {
+    font-size: 24px !important;
+}
+
+.box-rating .stars .fa {
+    cursor: default;
+    color: #fb6b26;
+}
+
+.box-rating.actived .stars .fa {
+    cursor: pointer;
+}
+
+.box-rating .stars.move .fa {
+    color: #FF9100;
+}
+
+.box-rating .stars.move .fa:before {
+    content: '\f005';
+}
+
+.box-rating.actived .stars .fa:hover~.fa {
+    color: #FFD203;
+}
+
+.box-rating.actived .stars .fa:hover~.fa:before {
+    content: '\f006' !important;
+}
+
+ul.cbp_tmtimeline {
+    margin: 15px 0 15px 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.cbp_tmtimeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #ebeef3;
+    left: 5%;
+    margin-left: -2px;
+}
+
+.cbp_tmtimeline>li {
+    position: relative;
+}
+
+.cbp_tmtimeline>li .cbp_tmtime {
+    display: block;
+    width: 23%;
+    padding-right: 80px;
+    position: absolute;
+}
+
+.cbp_tmtimeline>li .cbp_tmicon {
+    width: 48px;
+    height: 48px;
+    font-weight: 500;
+    background-color: #fff;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 50px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #E30050;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #999;
+    text-align: center;
+    left: 5%;
+    top: 22px;
+    margin: 0 0 0 -25px;
+}
+
+.cbp_tmtimeline>li .day {
+    font-weight: 700;
+    background-color: #fff;
+    text-transform: none;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #E30050;
+    text-align: center;
+    left: 5%;
+    top: 0;
+    margin: 0 0 0 -25px;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel {
+    margin: 0 0 15px 10%;
+    background: #eef3f7;
+    padding: 20px;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+img.thumb_visit {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    margin-top: -5px;
+    float: right;
+    margin-left: 15px;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel h4 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel p {
+    margin-bottom: 0;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #eef3f7;
+    border-width: 10px;
+    top: 15px;
+}
+
+.cbp_tmtimeline>li .cbp_tmtime span:first-child {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 0;
+}
+
+.cbp_tmtimeline>li .cbp_tmtime span:last-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cbp_tmtimeline>li .cbp_tmtime span {
+    display: block;
+    text-align: right;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel h2 {
+    color: #E30050;
+    display: -webkit-inline-box;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 13px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 20px
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel h2:before {
+    content: "\f0e9";
+    font-size: 18px;
+    margin-right: 5px;
+    color: #fb6b26;
+}
+
+.tour_description {
+    color: #f7860f
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel h2 a {
+    color: #E30050 !important
+}
+
+.tour_description i {
+    float: left;
+    line-height: 20px;
+    margin-right: 5px
+}
+
+.question-click input {
+    background-color: #c8dde2;
+}
+.mb5 {
+    line-height: 15px;
+}
+
+.fix-menu {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background: #FFF;
+    width: 100%;
+}
+
+.fix-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fix-menu li {
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+.fix-menu li a {
+    color: #4e4e4e;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 0;
+    border: none;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-book-top {
+    position: absolute;
+    right: 25px;
+    top: 8px;
+}
+.btn-success.btn-booking{
+    background-color: #ee3900;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+}
+.btn-success.btn-booking:hover{
+    background-color: #fff;
+    color: #ee3900;
+    border: 1px #ee3900 solid;
+}
+.mt15 {
+    margin-top: 11px !important;
+}
+
+.col-md-8 {
+    width: 66.66666667%;
+}
+
+.evo-product-block-item .label_icon1{
+	    position: absolute;
+    display: inline-block;
+    background: #fe7d15;
+    font-family: "Arial",sans-serif;
+    z-index: 2;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 2px 10px 2px 20px;
+    top: 15px;
+    left: -11px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.evo-product-block-item .label_icon1 span{
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;	
+}
+.evo-product-block-item .label_icon1 span:before{
+	content: "";
+    position: absolute;
+    left: -20px;
+    bottom: -19px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 12px 0;
+    border-color: transparent #ac4d01 transparent transparent;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ml15 {
+    margin-left: 15px !important;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.box-icon,
+[class^="box-icon-"],
+[class*=" box-icon-"] {
+    z-index: 2;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    background: #fb6b26;
+
+    transition: 0.3s;
+}
+
+.fa,
+.im {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.prefix_note {
+    color: #fb6b26;
+    font-size: 21px;
+    font-weight: 700;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    font-family: FontAwesome;
+}
+
+ul.cbp_tmtimeline {
+    margin: 15px 0 15px 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.cbp_tmtimeline>li {
+    position: relative;
+}
+
+.cbp_tmtimeline>li .day {
+    font-weight: 700;
+    background-color: #fff;
+    text-transform: none;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #fb6b26;
+    text-align: center;
+    left: 5%;
+    top: 0;
+    margin: 0 0 0 -25px;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.cbp_tmtimeline>li .cbp_tmicon {
+    width: 48px;
+    height: 48px;
+    font-weight: 500;
+    background-color: #fff;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 50px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #fb6b26;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #999;
+    text-align: center;
+    left: 5%;
+    top: 22px;
+    margin: 0 0 0 -25px;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel {
+    margin: 0 0 15px 10%;
+    background: #eef3f7;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel h2 {
+    color: #fb6b26;
+    display: -webkit-inline-box;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 13px;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 39.985400000000006px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.text-hero {
+    margin-top: 0;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+.cbp_tmtimeline>li .cbp_tmlabel p {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+header nav .nav-item a {
+    font-size: 13px;
+    padding: 10px 20px;
+    line-height: 17px;
+    font-weight: 740;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+/*tab*/
+.nav-tabs.myTab {
+    border-color: #ddd;
+    margin-bottom: 0 !important;
+    margin-left: 0;
+    position: relative;
+    top: 1px;
+}
+.nav-tabs.myTab > li.active > a,
+.nav-tabs.myTab > li.active > a:focus{
+    color: #333 !important;
+    border-color: #ddd;
+    border-top: 2px solid #fb6b26;
+    border-bottom-color: transparent;
+    background-color: #FFF;
+    z-index: 1;
+    line-height: 18px;
+    margin-top: -1px;
+    box-shadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.nav-tabs.myTab > li > a {
+    border-radius: 0 !important;
+    border-color: #ddd;
+    background-color: #F9F9F9;
+    color: #999;
+    margin-right: -1px;
+    line-height: 18px;
+    position: relative;
+}
+
+/*social*/
+.gap-mini {
+    margin: 10px 0 10px 0;
+}
+
+.gap {
+    display: block;
+    position: relative;
+    clear: both;
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+}
+
+.question-box {
+    padding: 20px 10px 15px;
+    height: auto;
+    background: url(https://tourdulichviet.com/public/frontend/img/contact-why-bg.png) no-repeat;
+    background-size: 100%;
+}
+
+.question-box .question-got {
+    color: #c7ddec;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.question-box .tel-number {
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: fantasy;
+    color: #fff;
+    letter-spacing: .4px;
+    text-align: center;
+}
+
+.mb15 {
+    margin-bottom: 15px !important;
+}
+
+.mb5 {
+    margin-bottom: 5px !important;
+}
+
+.question-box .question-click {
+    margin-left: 3px;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group .form-control,
+.input-group-addon,
+.input-group-btn {
+    display: table-cell;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.question-click input {
+    background-color: #fff;
+}
+
+
+
+.form-control {
+    border-radius: 50px;
+    box-shadow: none;
+    line-height: 1.6em;
+}
+
+.form-control {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+/* .input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.btn,
+.input-group-btn:first-child>.btn-group>.btn,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+} */
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.input-group-addon,
+.input-group-btn {
+    width: 1%;
+    vertical-align: middle;
+}
+
+.booking-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.fw100 {
+    font-weight: 200;
+}
+
+.font22 {
+    font-size: 22px;
+}
+/*question-box*/
+.question-box {
+    padding: 20px 10px 15px;
+    height: auto;
+    background: url('https://tourdulichviet.com/public/frontend/img/contact-why-bg.png') no-repeat;
+    background-size: 100%;
+}
+
+.question-box .question-got {
+    color: #c7ddec;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.question-box .tel-icon {
+    padding-right: 6px;
+}
+
+.tel-icon {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+    height: 15px;
+}
+
+.question-box .tel-number {
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: fantasy;
+    color: #fff;
+    letter-spacing: .4px;
+    text-align: center;
+}
+
+.question-box .question-click {
+    margin-left: 3px;
+}
+
+.why-box {
+    margin-top: 20px;
+    padding: 10px 0 15px 12px;
+    height: auto;
+    background: url('https://tourdulichviet.com/public/frontend/img/contact-why-bg.png') left bottom no-repeat;
+    background-size: 100%;
+    border: 1px solid #b7c4ce;
+}
+
+.why-box h3 {
+    font-weight: 700;
+    font-family: Times New Roman;
+    font-size: 20px;
+    color: #859baa;
+}
+
+.why-box ul {
+    margin-top: 10px;
+}
+
+.why-box li {
+    color: #365464;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.fa-check {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 13px;
+    height: 12px;
+}
+
+.why-box h3 em {
+    font-style: normal;
+    color: #02669c;
+}
+.tour_LienQuan{
+    border: 1px solid #ddd;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 rgba(152,165,185,0.2);
+}
+
+/* hinh nen trang chu*/
+.carousel-inner img {
+    width: 100%;
+    height: 650px;
+}
+.carousel-inner iframe {
+    width: 100%;
+    height: 440px;
+}
+
+#custCarousel .carousel-indicators {
+  position: relative;
+    margin-top: 20px
+}
+
+#custCarousel .carousel-indicators>li {
+    width: auto;
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+    height: 60px;
+}
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+
+.carousel-item img {
+    width: 100%
+}
+#custCarousel .carousel-control-prev,
+#custCarousel .carousel-control-next{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    z-index: 6;
+    opacity: 5;
+    top: 200px;
+}

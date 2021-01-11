@@ -1,0 +1,105 @@
+.box_image_logo1{
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.13);
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    border-top: 3px solid cornflowerblue;
+}
+.box_image_logo1 .my-account-litle1{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.box_image_logo1 .my-account-img {
+    width: 100%;
+    text-align: center;
+}
+.box_image_logo1 .my-account-img img{
+width: 60%;
+border-radius: 50%;
+}
+.box_info_account1{
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.13);
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    padding-top: 0;
+    border-top: 3px solid cornflowerblue;
+
+}
+.my_info_account_header1{
+    width: 100%;
+    text-align: left;
+    border-bottom: 2px solid #efefef;
+    margin-bottom: 30px;
+    
+}
+.my_info_account_header1 h3{
+    font-size: 20px;
+    color: #333;
+    padding-top: 0;
+    font-weight: 600;
+}
+.my_info_account_header1 h4{
+    font-size: 14px;
+    line-height: 1.0625rem;
+    color: #555;
+
+}
+.form_info_update1{
+    width: 100%;
+  
+}
+.form_info_update1 .control-label{
+    padding: 10px;
+}
+ .btn.booking{
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 35px;
+float: right;
+    width: 30%;
+
+    outline: none;
+    border: 1px cornflowerblue solid;
+
+}
+.btn.booking1{
+    background-color: #fff;
+    color: cornflowerblue;
+    border-radius: 4px;
+    border: none;
+    margin-left: 35px;
+float: right;
+    width: 30%;
+
+    outline: none;
+    border: 1px cornflowerblue solid;
+
+}
+.btn.booking1:hover{
+    background-color: #fff;
+    color: cornflowerblue;
+    border: 1px cornflowerblue solid;
+}
+.btn.booking:hover{
+    background-color: #fff;
+    color: cornflowerblue;
+    border: 1px cornflowerblue solid;
+}
+.btn.btn-block{
+    background-color: cornflowerblue;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+    text-align: center;
+}

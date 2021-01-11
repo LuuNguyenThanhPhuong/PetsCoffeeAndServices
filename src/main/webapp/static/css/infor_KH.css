@@ -1,0 +1,75 @@
+.infoBD{
+    border: 1px groove slategrey;
+    outline: none;
+    height: auto;
+}
+.infoBD img{
+    margin-left:40%;
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 25px;
+
+}
+.userName{
+margin-top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.userName h3{
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+}
+.userName span{
+    background-color: forestgreen;
+    border-radius: 10px;
+    width: auto;
+    font-size: 14px;
+    padding: 4px;
+    color: #fff;
+    font-weight: 600;     
+}
+.form-info{
+border-top: none;
+     border-left: 1px groove slategrey;
+     border-right: 1px groove slategrey;
+    outline: none;
+    height: auto;
+    padding: 30px 30px 30px 30px;
+}
+.line-break2 {
+    max-width: 100%;
+
+    text-align: center;
+    position: relative;
+    border-left: 1px groove slategrey;
+    border-right: 1px groove slategrey;
+}
+.line-break2:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: forestgreen;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.line-break2 button {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    padding: 1px 10px;
+    border-radius: 15px;
+    font-weight: 550;
+    border: 2px solid forestgreen;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.line-break2 button:hover {
+background-color: forestgreen;
+color: #fff;
+
+}

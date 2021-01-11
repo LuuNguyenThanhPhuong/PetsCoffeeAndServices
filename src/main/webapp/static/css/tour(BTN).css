@@ -1,0 +1,50 @@
+.Tour_Title_BTN {
+    background-image: none;
+
+    padding-bottom: 40px;
+}
+.Tour_Title_BTN .section_tour-new_title {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.Tour_Title_BTN .section_tour-new_title h2 {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #253d52;
+    line-height: 1.1;
+}
+.Tour_Title_BTN .section_tour-new_title h2 span {
+    color: #1ba0e2;
+    font-size: 35px;
+    font-weight: 600;
+}
+.Tour_Title_BTN .section_tour-new_title .title-line {
+    margin-top: -10px;
+}
+.Tour_Title_BTN .section_tour-new_title .title-line .tl-1 {
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background: #eee;
+}
+.Tour_Title_BTN .section_tour-new_title .title-line .tl-2 {
+    display: inline-block;
+    height: 12px;
+    margin: 0 5px;
+    position: relative;
+    top: 5px;
+    width: 12px;
+    border: 1px solid #1ba0e2;
+    border-radius: 50px;
+}
+.Tour_Title_BTN .section_tour-new_title .title-line .tl-3 {
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background: #eee;
+}

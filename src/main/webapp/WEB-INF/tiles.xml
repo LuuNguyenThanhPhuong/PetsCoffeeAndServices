@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- User Layout -->
+	<definition name="*/*"
+		template="/WEB-INF/views/user/layout.jsp">
+		<put-attribute name="category"
+			value="/WEB-INF/views/user/category.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/user/{1}/{2}.jsp" />
+	</definition>
+
+	<!-- Admin Layout -->
+	<definition name="person/*/*"
+		template="/WEB-INF/views/admin/layout.jsp">
+		<put-attribute name="body"
+			value="/WEB-INF/views/person/{1}/{2}.jsp" />
+	</definition>
+	
+	<!-- Admin Layout -->
+	<definition name="admin/*/*"
+		template="/WEB-INF/views/admin/layout.jsp">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/{1}/{2}.jsp" />
+	</definition>
+
+
+</tiles-definitions> 

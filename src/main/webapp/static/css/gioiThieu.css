@@ -1,0 +1,106 @@
+.section-about-1 {
+    position: relative;
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1) 0.7s;
+    width: 100%;
+    z-index: 1;
+    clear: both;
+    padding-top: 100px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-about-1 .faq {
+    z-index: 999;
+    position: relative;
+}
+.section-about-1 .faq .title {
+    font-size: 68px;
+    text-transform: inherit;
+    margin-bottom: 35px;
+    text-align: right;
+    line-height: 26px;
+    font-weight: 600;
+    color: #90c908;
+}
+.section-about-1 .faq .title .sub-title {
+    font-size: 26px;
+    width: 70px;
+    text-align: right;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.section-about-1 .faq .title .first-word {
+    color: #114a82;
+}
+.section-about-1 .faq .faq-group .panel-group {
+    border: 1px solid #e5e5f8;
+    background: #fff;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0 0 35px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 0 35px 0 rgba(0,0,0,0.12);
+    position: relative;
+    z-index: 999;
+}
+.section-about-1 .faq .faq-group .panel-group .panel {
+    display: block;
+    background: 0 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.section-about-1 .faq .faq-group .panel-group .panel .panel-heading {
+    margin-bottom: 0.5px;
+    display: block;
+    position: relative;
+    padding: 0;
+    background: 0;
+    border: none;
+    border-radius: 0;
+}
+.section-about-1 .faq .faq-group .panel-group .panel .panel-heading .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.section-about-1 .faq .faq-group .panel-group .panel .panel-heading .panel-title a {
+    color: #114a82;
+    font-size: 14px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 14px 30px 14px 20px;
+    cursor: pointer;
+    position: relative;
+    background: #ededf7;
+    display: block;
+    transition: all .4s ease 0s;
+    text-decoration: none;
+}
+.collapse {
+    display: none;
+}
+.section-about-1 .faq .faq-group .panel-group .panel-body {
+    padding: 30px 20px;
+    border: none !important;
+    background: 0 0;
+}
+.section-about-1 .faq-img-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.section-about-1 .faq-img-wrap .faq-img {
+    position: relative;
+    z-index: 2;
+}
+.section-about-1 .faq-img-wrap .faq-img img {
+  height: 400px;
+  border: 0 none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
